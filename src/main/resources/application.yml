@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: core
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://49.235.197.94:8761/eureka/
